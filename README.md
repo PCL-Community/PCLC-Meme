@@ -1,83 +1,63 @@
-<center><h1> MemeBox </h1></center>
+<div align=center>
+    <img width="255" height="255" src="static/favicon.png"/>
+</div>
 
-<center>Website template for meme collection.</center>
-
-[简体中文](./README_zh.md)
+<center><h1> PCL Community 梗图收集 </h1></center>
 
 * * *
 
-### Description
+### 投递新图/文
 
-This template is extracted from [NoneMeme/NoneMeme](https://github.com/NoneMeme/NoneMeme).
+本仓库欢迎更多更新的梗，如果你有相关新的梗想要加入本仓库，只需要Fork后做一些简单更改即可√
 
-MemeBox can contain various contents including images and markdown documents.
+当然，也欢迎加入 [PCL Community](https://github.com/PCL-Community)更方便的进行更改~
 
-### Build
+> 对于图片内容参考如下步骤：
+>
+> 1. Fork 本仓库
+>
+> 2. 准备图片
+>
+>    1. 内容应为**与 PCL Community 相关的**梗图
+>
+>    2. 将文件名字命名为你的梗图需要表述的意思
+>
+> 3. 提交图片
+>
+>    1. 将图片放入 `meme` 文件夹中
+>
+>    2. 提交并发起 PR
 
-1. Prepare a `make` tool.
+> 对于文字内容参考如下步骤：
+>
+> 1. Fork 本仓库
+>
+> 2. 准备 Markdown 文档
+>
+>    1. 内容应为**与 PCL Community 相关的**梗
+>
+>    2. 将文件名字命名为你的梗需要表述的意思
+>
+>    3. 文档的第一行最好为文章的标题，且必须形如 `# 你的标题`
+>
+>    4. 文档末尾最好留一个空行
+>
+>    5. **请不要试图修改 `text` 文件夹中的内容——它们是自动生成的，对其的修改会在下次更新文章时被覆盖**
+>
+> 3. 提交文档
+>
+>    1. 将文档放入 `art` 文件夹中
+>
+>    2. 提交并发起 PR
 
-2. Generate your repo with this template.
+### 删除旧梗
 
-3. Clone your repo.
+本仓库虽用于记录 PCL Community 交流群所流传的相关梗，但本仓库中任何内容均不代表 PCL Community 团队的相关态度，也不会强迫任何内容“入典”。
 
-4. Open a shell and switch to the repo directory.
+如有内容影响到 PCL Community 的正常交流，或被群聊成员公认不应“入典”，或其主人拒绝“入典”，可联系 PCL Community 团队或提交 pr 进行删除。
 
-5. Run `make`.
+### 感谢
 
-    > NOTE: The default `PAGELANG` is now `en` (English).
-    >
-    > Read more info in [Custom text](#custom-text).
+本仓库借用了很多代码和灵感 ~~，甚至连Readme都有借用~~ ，感谢
 
-6. Add your contents to `art/` (for documents) or `meme/` (for pictures).
-
-    > NOTE: MemeBox does **not** include any icon files.
-    >
-    > You should prepare your icons and put them into `static/` folder.
-    >
-    > See the output from make for more information.
-
-7. Commit and push.
-
-### Custom text
-
-Usually, you may expect to change some text rather than "MemeBox" etc.
-
-For this, you can define these temporary environment variables below to override the default:
-
-|Name|Description|
-|:----|:----|
-|PAGELANG|Page language mark for .html file, also decides the default text, e.g. "zh"|
-|TITLE|The title of your memebox, e.g. "MemeBox"|
-|DESC|A short description for your memebox, e.g. "Joy for Everyone"|
-|TDESC|A description for the text part|
-|FOOTER|Footer on every pages|
-
-Just like this:
-
-    PAGELANG=en TITLE=Foo DESC=Bar FOOTER="Lorem ipsum" make
-
-If the default text does not satisfy you, don't worry, they are also customizable with the way above:
-
-|Name|Description|
-|:----|:----|
-|T_MEMEPIC|Indicates a hyperlink jumping to picture page|
-|T_MEMETXT|Indicates a hyperlink jumping to text page|
-|T_DOWNLOAD|A hint for downloading a image|
-|T_ANOTHER|A hint for randomly picking a image|
-|T_BACK|A hint for leaving the full view|
-|T_ZOOMIN|A hint for entering the full view|
-|T_NIMGS|Images summary text|
-
-### License
-
-This template is under the [MIT License](LICENSE).
-
-### Special thanks
-
-- **[modcrafts/a60-shop](https://github.com/modcrafts/a60-shop)**
-
-- **[picocss/pico](https://github.com/picocss/pico/tree/f9e97c0bf430df8fa3f730eb6a6e84f63d4a9b0c)**
-
-- **[MarketingPipeline/Markdown-Tag](https://github.com/MarketingPipeline/Markdown-Tag)**
-
-- **[NoneMeme/NoneMeme](https://github.com/NoneMeme/NoneMeme)**
+**[NoneMeme/NoneMeme](https://github.com/NoneMeme/NoneMeme)** 构建代码来源
