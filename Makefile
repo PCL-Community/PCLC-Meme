@@ -1,9 +1,9 @@
 # memebox generating
 
-PAGELANG?=en
+PAGELANG?=zh
 
-TITLE?=MemeBox
-DESC?=Joy for Everyone
+TITLE?=PCL Community 梗
+DESC?=PCL Community 群大佬们的日常
 TDESC?=> _Text memes description._
 FOOTER?=** Footer **
 
