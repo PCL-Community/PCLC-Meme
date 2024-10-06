@@ -134,6 +134,7 @@ export default {
     "meme/甲辰年.png",
     "meme/真他妈傻逼啊.png",
     "meme/真他妈服了.png",
+    "meme/突然发现hejiehao从来没说过脏话.png",
     "meme/精.jpg",
     "meme/给新人的提示.png",
     "meme/绷.png",
