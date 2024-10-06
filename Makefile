@@ -5,7 +5,7 @@ PAGELANG?=zh
 TITLE?=PCL Community 梗
 DESC?=PCL Community 群大佬们的日常
 TDESC?=> _Text memes description._
-FOOTER?=** Footer **
+FOOTER?=· PCL Community ·
 
 ifeq (${PAGELANG}, zh)
 T_MEMEPIC?=图片梗
