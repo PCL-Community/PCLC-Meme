@@ -10,7 +10,7 @@
 
 本仓库欢迎更多更新的梗，如果你有相关新的梗想要加入本仓库，只需要Fork后做一些简单更改即可√
 
-当然，也欢迎加入 [PCL Community](https://github.com/PCL-Community)更方便的进行更改~
+当然，也欢迎加入 [PCL Community](https://github.com/PCL-Community) 更方便的进行更改~
 
 > 对于图片内容参考如下步骤：
 >
@@ -52,9 +52,9 @@
 
 ### 删除旧梗
 
-本仓库虽用于记录 PCL Community 交流群所流传的相关梗，但本仓库中任何内容均不代表 PCL Community 团队的相关态度，也不会强迫任何内容“入典”。
+本仓库虽用于记录 PCL Community 交流群所流传的相关梗，但本仓库中任何内容均不代表 PCL Community 团队的相关态度，也不会强迫任何内容 “入典”。
 
-如有内容影响到 PCL Community 的正常交流，或被群聊成员公认不应“入典”，或其主人拒绝“入典”，可联系 PCL Community 团队或提交 pr 进行删除。
+如有内容影响到 PCL Community 的正常交流，或被群聊成员公认不应 “入典”，或其主人拒 绝“入典”，可联系 PCL Community 团队或提交 PR 进行删除。
 
 ### 感谢
 
