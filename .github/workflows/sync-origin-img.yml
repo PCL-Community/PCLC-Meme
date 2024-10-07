@@ -41,6 +41,7 @@ jobs:
                 rm -rf randpic
             
             - name: Commit changes
+              if: steps.check.outputs.changed == 'true'
               run: |
                 git config --global user.email "action@github.com"
                 git config --global user.name "GitHub Action"
