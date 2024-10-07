@@ -24,7 +24,7 @@
 >
 >    1. 前往 [PCL2Hub](https://alist.worldhim.eu.org/) 参考 README 上传文件
 >
->    2. 等待每日一次的自动同步即可
+>    2. 等待每日一次的自动同步或[立即手动同步](https://github.com/PCL-Community/PCLC-Meme/actions/workflows/sync-origin-img.yml)即可
 >
 >    3. **请不要试图修改 `meme` 文件夹中的内容——它们是自动同步的，对其的修改会在下次同步时被覆盖**
 
