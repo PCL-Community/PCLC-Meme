@@ -23,13 +23,14 @@ jobs:
             - name: Get files
               run: |
                 cd worldhim-alist-backup
+                rm -rf randpic/httpcat
+                rm -rf randpic/http
+                rm -rf randpic/vlog
                 mv randpic ..
                 cd ..
                 rm -rf worldhim-alist-backup
                 rm -rf meme
-                rm -rf randpic/httpcat
-                rm -rf randpic/http
-                rm -rf randpic/vlog
+
             
             - name: Run script
               run: |
