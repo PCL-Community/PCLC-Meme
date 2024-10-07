@@ -1,6 +1,5 @@
 export default {
   items: [
-    "meme/0.jpg",
     "meme/6.jpg",
     "meme/6.png",
     "meme/Ad你要被夹（彩色）.jpg",
