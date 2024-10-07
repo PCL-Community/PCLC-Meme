@@ -15,17 +15,14 @@ jobs:
               run: |
                 git config --global user.email "action@github.com"
                 git config --global user.name "GitHub Action"
-                mkdir from-alist
-                cd from-alist
                 git clone https://github.com/PCL-Community/worldhim-alist-backup.git
             
             - name: Get files
               run: |
-                cd from-alist
-                ls
+                cd worldhim-alist-backup
                 mv randpic ..
                 cd ..
-                rm -rf from-alist
+                rm -rf worldhim-alist-backup
                 rm -rf meme
             
             - name: Run script
