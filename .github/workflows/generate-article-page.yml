@@ -34,4 +34,4 @@ jobs:
           commit_message: 'chore: update article page'
           file_pattern: 'text/*.html'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SHEEP }}
