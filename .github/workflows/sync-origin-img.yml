@@ -27,10 +27,17 @@ jobs:
                 cd ..
                 rm -rf worldhim-alist-backup
                 rm -rf meme
+                rm -rf randpic/httpcat
+                rm -rf randpic/http
+                rm -rf randpic/vlog
             
             - name: Run script
               run: |
                 python sync.py
+            
+            - name: Delete temp files
+              run: |
+                rm -rf randpic
             
             - name: Commit changes
               run: |
