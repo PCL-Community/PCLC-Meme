@@ -28,4 +28,4 @@ jobs:
           commit_message: 'chore: update similarity images data'
           file_pattern: static/data/similar_images.json
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SHEEP }}

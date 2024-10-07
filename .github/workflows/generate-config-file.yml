@@ -30,4 +30,4 @@ jobs:
           commit_message: 'chore: update config file'
           file_pattern: static/scripts/config.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SHEEP }}
