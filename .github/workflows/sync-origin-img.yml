@@ -40,13 +40,32 @@ jobs:
               run: |
                 rm -rf randpic
             
-            - name: Commit changes
-              if: steps.check.outputs.changed == 'true'
-              run: |
-                git config --global user.email "action@github.com"
-                git config --global user.name "GitHub Action"
-                git add .
-                git commit -m "Sync"
-                git push
+                - name: 提交更改
+                # codes from: https://github.com/PCL-Community/PCL2Help-Backup/blob/main/.github/workflows/sync.yml
+                id: check_commit
+                run: |
+                  # 检查是否有文件被修改但尚未提交
+                  if [[ $(git status --porcelain) ]]; then
+                      echo "有文件被修改但尚未提交。"
+                      # 输出修改的文件列表
+                      git status --short
+                      # 添加所有已修改的文件到暂存区
+                      git add .
+                      # 提交暂存区中的文件到仓库
+                      git config --local user.email "action@github.com"
+                      git config --local user.name "Github Action"
+                      git commit -m "Sync"
+                      echo "文件已提交到仓库。"
+                      echo "::set-output name=commit_required::true"
+                  else
+                      echo "没有文件被修改。"
+                      echo "::set-output name=commit_required::false"
+                  fi
+                  
+            - name: 推送更改
+              # codes from: https://github.com/PCL-Community/PCL2Help-Backup/blob/main/.github/workflows/sync.yml
+              uses: ad-m/github-push-action@master
+              with:
+                github_token: ${{ secrets.GITHUB_TOKEN }}
             
                 
