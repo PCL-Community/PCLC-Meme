@@ -40,10 +40,10 @@ jobs:
               run: |
                 rm -rf randpic
             
-                - name: 提交更改
+            - name: 提交更改
                 # codes from: https://github.com/PCL-Community/PCL2Help-Backup/blob/main/.github/workflows/sync.yml
-                id: check_commit
-                run: |
+              id: check_commit
+              run: |
                   # 检查是否有文件被修改但尚未提交
                   if [[ $(git status --porcelain) ]]; then
                       echo "有文件被修改但尚未提交。"
