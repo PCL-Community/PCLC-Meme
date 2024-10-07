@@ -33,7 +33,6 @@ jobs:
                 python sync.py
             
             - name: Commit changes
-              if: steps.check.outputs.changed == 'true'
               run: |
                 git config --global user.email "action@github.com"
                 git config --global user.name "GitHub Action"
