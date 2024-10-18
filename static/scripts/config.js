@@ -1,7 +1,9 @@
 export default {
   items: [
+    "meme/16GB战神.png",
     "meme/6.jpg",
     "meme/6.png",
+    "meme/Ad-closeNN 甲辰年.png",
     "meme/Ad你要被夹（彩色）.jpg",
     "meme/Ad你要被夹（灰色）.jpg",
     "meme/FUCKYOUMS.png",
@@ -35,6 +37,7 @@ export default {
     "meme/sb锁了.png",
     "meme/spam.jpg",
     "meme/this_way_sir.png",
+    "meme/wuliaodexiaoluo@github.com.png",
     "meme/¿.png",
     "meme/……？.png",
     "meme/。.jpg",
@@ -59,6 +62,7 @@ export default {
     "meme/中毒.png",
     "meme/中登招待所.png",
     "meme/也可以.png",
+    "meme/什么列车邮票狂欢日.png",
     "meme/传下去，凌云成猫娘了.png",
     "meme/似了.jpg",
     "meme/你们可以整点新活.png",
@@ -131,7 +135,6 @@ export default {
     "meme/滑稽抽烟.png",
     "meme/爽！！！.jpg",
     "meme/猫娘柚子？.jpg",
-    "meme/甲辰年.png",
     "meme/真他妈傻逼啊.png",
     "meme/真他妈服了.png",
     "meme/神秘代码.jpg",
@@ -158,6 +161,7 @@ export default {
     "meme/错误的.png",
     "meme/鸣潮公式.png",
     "meme/麻了.png",
+    "meme/龙猫老婆？！.png",
     "meme/？ (2).png",
     "meme/？.png",
   ]
