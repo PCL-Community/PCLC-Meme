@@ -67,5 +67,24 @@ jobs:
               uses: ad-m/github-push-action@master
               with:
                 github_token: ${{ secrets.GITHUB_TOKEN }}
-            
+    generate-config-file:
+        name: Generate config file
+        runs-on: ubuntu-latest
+        needs: Sync
+        permissions:
+          contents: write
+        steps:
+          - uses: actions/checkout@v2
+            with:
+              ref: ${{ github.ref }}
+          - name: build config
+            run: |
+              ./shell/computed.sh
+              cat static/scripts/config.js
+          - uses: stefanzweifel/git-auto-commit-action@v4
+            with:
+              commit_message: 'chore: update config file'
+              file_pattern: static/scripts/config.js
+            env:
+              GITHUB_TOKEN: ${{ secrets.SHEEP }}
                 
