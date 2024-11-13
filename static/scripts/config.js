@@ -18,7 +18,6 @@ export default {
     "meme/Image_1726558179120.png",
     "meme/Image_1726558185084.png",
     "meme/Image_1726558188369.png",
-    "meme/Image_1726558246869.png",
     "meme/Image_1726558252536.png",
     "meme/Image_1726558259114.png",
     "meme/Image_1726558285735.png",
