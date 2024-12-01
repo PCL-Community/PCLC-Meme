@@ -107,6 +107,7 @@ export default {
     "meme/干脆直接飞了.png",
     "meme/开盒.png",
     "meme/开香槟咯.jpg",
+    "meme/很好 我很喜欢.jpg",
     "meme/很棒 对吧.png",
     "meme/必须给每个人都安排上.png",
     "meme/快打 127.0.0.1.png",
