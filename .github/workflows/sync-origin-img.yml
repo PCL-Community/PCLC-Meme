@@ -11,34 +11,32 @@ jobs:
     Sync:
         runs-on: ubuntu-latest
         steps:
-            - name: Checkout
+            - name: 检出仓库
               uses: actions/checkout@v4
 
-            - name: Clone from origin repo
+            - name: 从源仓库 Clone
               run: |
                 git config --global user.email "action@github.com"
                 git config --global user.name "GitHub Action"
-                git clone https://github.com/PCL-Community/worldhim-alist-backup.git
+                git clone https://github.com/WorldHim/PCL2Hub.git
             
-            - name: Get files
+            - name: 操作文件
               run: |
-                cd worldhim-alist-backup
-                rm -rf randpic/httpcat
-                rm -rf randpic/http
-                rm -rf randpic/vlog
-                mv randpic ..
+                cd PCL2Hub
+                rm -rf httpcat
+                rm -rf http
+                rm -rf vlog
                 cd ..
-                rm -rf worldhim-alist-backup
                 rm -rf meme
 
             
-            - name: Run script
+            - name: 运行查重脚本
               run: |
-                python sync.py
+                python Move.py
             
-            - name: Delete temp files
+            - name: 删除无用的临时文件
               run: |
-                rm -rf randpic
+                rm -rf PCL2Hub
             
             - name: 提交更改
                 # codes from: https://github.com/PCL-Community/PCL2Help-Backup/blob/main/.github/workflows/sync.yml
@@ -67,6 +65,7 @@ jobs:
               uses: ad-m/github-push-action@master
               with:
                 github_token: ${{ secrets.GITHUB_TOKEN }}
+    
     generate-config-file:
         name: Generate config file
         runs-on: ubuntu-latest
