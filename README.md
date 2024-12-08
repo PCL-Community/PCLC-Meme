@@ -25,7 +25,7 @@
 >
 > 2. 提交图片
 >
->    1. 前往 [Worldhim/PCL2Hub](https://github.com/Worldhim/PCL2Hub) 参考 README 发起 [Pull Request](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) 至 [Worldhim/PCL2Hub](https://github.com/Worldhim/PCL2Hub)
+>    1. 前往 [WorldHim/PCL2Hub](https://github.com/WorldHim/PCL2Hub) 参考 README 发起 [Pull Request](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) 至 [WorldHim/PCL2Hub](https://github.com/WorldHim/PCL2Hub)
 >
 >    2. 等待每日一次（UTC+8 6:00）的自动同步或[立即手动同步](https://github.com/PCL-Community/PCLC-Meme/actions/workflows/sync-origin-img.yml)即可
 >
