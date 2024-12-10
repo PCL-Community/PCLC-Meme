@@ -46,6 +46,6 @@ def move_images_with_rename_and_md5_check(source_dir, dest_dir):
                 print(f'Moved: {file} to {dest_file_path}')
 
 # 示例使用
-source_directory = 'randpic'  # 替换为实际源文件夹路径
-destination_directory = 'meme'  # 替换为目标文件夹路径
+source_directory = 'PCL2Hub'  # 源文件夹
+destination_directory = 'meme'  # 目标文件夹
 move_images_with_rename_and_md5_check(source_directory, destination_directory)
