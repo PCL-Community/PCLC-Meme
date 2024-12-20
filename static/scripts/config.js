@@ -119,6 +119,7 @@ export default {
     "meme/我不能理解.jpg",
     "meme/我不认为我们组织有泄露组织机密的__.jpg",
     "meme/我再也不乱缩写了.png",
+    "meme/我去踹踹龙猫.jpg",
     "meme/我是废物 (2).png",
     "meme/我是废物 (3).png",
     "meme/我是废物.png",
