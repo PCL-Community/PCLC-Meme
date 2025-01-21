@@ -100,6 +100,7 @@ export default {
     "meme/多线程呢.png",
     "meme/夹夹乐.png",
     "meme/夹子宽带.jpg",
+    "meme/孩子们我回来了.png",
     "meme/完全没必要啊.png",
     "meme/实话实说.png",
     "meme/害怕.png",
